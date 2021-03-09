@@ -1,0 +1,46 @@
+{
+  "name": "Netflix",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "build:server": "webpack --mode production --config ./webpack.config.server.js",
+    "start": "webpack serve --mode development --config ./webpack.config.dev.js"
+  },
+  "keywords": [],
+  "author": "bmonterrozo <ste45_007@hotmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.13.10",
+    "@babel/core": "^7.13.10",
+    "@babel/node": "^7.13.10",
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@babel/preset-env": "^7.13.10",
+    "@babel/preset-react": "^7.12.13",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^5.1.1",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^6.2.0",
+    "html-loader": "^2.1.1",
+    "html-webpack-plugin": "^5.3.0",
+    "mini-css-extract-plugin": "^1.3.9",
+    "node-sass": "^5.0.0",
+    "sass-loader": "^11.0.1",
+    "standard": "^16.0.3",
+    "standard-react": "^4.0.0",
+    "style-loader": "^2.0.0",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.24.4",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-node-externals": "^2.5.2"
+  }
+}
