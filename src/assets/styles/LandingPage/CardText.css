@@ -1,0 +1,156 @@
+.Card__Subtitle,
+.Card__Text {
+  font-size: 1.625rem;
+  font-weight: normal;
+}
+
+.Card__Text {
+  position: relative;
+  width: 100%;
+  padding: 75px 0;
+  max-width: 640px;
+  margin: 0 auto;
+  text-align: center;
+  z-index: 1;
+}
+
+
+@media only screen and (min-width: 550px) and (max-width: 949px) {
+  .Card__Subtitle,
+  .Card__Text {
+    font-size: 1.25rem;
+  }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 549px),
+only screen and (min-width: 350px) and (max-width: 399px),
+only screen and (max-width: 349px) {
+
+  .Card__Subtitle,
+  .Card__Text {
+    font-size: 1.125rem;
+  }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 549px) {
+  .Card__Text {
+    padding: 30px 0;
+  }
+}
+
+@media only screen and (min-width: 350px) and (max-width: 399px) {
+  .Card__Text {
+    padding: 15px 0;
+  }
+}
+
+@media only screen and (max-width: 349px) {
+  .Card__Text {
+    padding: 0;
+  }
+}
+
+.Card__Text .Card__Subtitle {
+  margin: 1rem 0;
+}
+
+@media only screen and (min-width: 950px) and (max-width: 1449px),
+only screen and (min-width: 1450px) {
+  .Card__Text .Card__Subtitle {
+    margin-bottom: 2.5rem;
+  }
+}
+
+.Card__Title {
+  font-size: 3.125rem;
+  line-height: 1.1;
+  margin-bottom: 0.5rem;
+}
+
+@media only screen and (min-width: 550px) and (max-width: 949px) {
+  .Card__Title {
+    font-size: 2.5rem;
+  }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 549px),
+only screen and (min-width: 350px) and (max-width: 399px),
+only screen and (max-width: 349px) {
+  .Card__Title {
+    font-size: 1.75rem;
+  }
+}
+
+@media only screen and (min-width: 550px) and (max-width: 949px) {
+  .Card__Title {
+    font-size: 3.125rem;
+  }
+}
+
+
+@media only screen and (min-width: 950px) and (max-width: 1449px) {
+  .Card__Title {
+    font-size: 3.125rem;
+  }
+}
+
+.Card__Subtitle {
+  font-size: 1.625rem;
+}
+
+.Card__Text .Card__Subtitle {
+  margin: 1rem 0;
+}
+
+@media only screen and (min-width: 400px) and (max-width: 549px),
+only screen and (min-width: 350px) and (max-width: 399px),
+only screen and (max-width: 349px) {
+  .Card__Subtitle {
+    font-size: 1.125rem;
+  }
+}
+
+@media only screen and (min-width: 950px) and (max-width: 1449px),
+only screen and (min-width: 1450px) {
+  .Card__Text .Card__Subtitle {
+    margin-bottom: 2.5rem;
+  }
+}
+
+.watchOnTv .Card__Text {
+  margin: -5% 0;
+}
+
+@media only screen and (min-width: 550px) and (max-width: 949px),
+only screen and (min-width: 400px) and (max-width: 549px),
+only screen and (min-width: 350px) and (max-width: 399px),
+only screen and (max-width: 349px) {
+  .watchOnTv .Card__Text {
+    margin: 0;
+  }
+}
+
+.watchOnDevice .Card__Text {
+  margin: -2% 0;
+}
+
+@media only screen and (min-width: 550px) and (max-width: 949px),
+only screen and (min-width: 400px) and (max-width: 549px),
+only screen and (min-width: 350px) and (max-width: 399px),
+only screen and (max-width: 349px) {
+  .watchOnDevice .Card__Text {
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width: 950px) and (max-width: 1449px),
+only screen and (min-width: 1450px) {
+  .hero .Card__Title {
+    font-size: 4rem;
+  }
+  .watchOnDevice .Card__Text,
+  .watchOnTv .Card__Text,
+  .downloadAndWatch .Card__Text{
+    text-align: left;
+  }
+}

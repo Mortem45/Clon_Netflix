@@ -1,0 +1,82 @@
+.Card__Text .Button__Container {
+  float: none;
+  margin-top: 0em;
+}
+
+.Card__Text .Button__Container .Button__Extra__large {
+  padding-right: 2.2rem;
+  padding-left: 1rem;
+}
+
+@media only screen and (min-width: 950px) and (max-width: 1449px),
+only screen and (min-width: 1450px) {
+  .Card__Text .Button__Container .Button__Extra__large {
+    padding-right: 3.25rem;
+    padding-left: 1.6125rem;
+  }
+}
+
+.Button__Container button {
+  font-size: 1rem;
+  min-height: 40px;
+  padding: .5rem 1em;
+  line-height: initial;
+}
+
+@media only screen and (min-width: 950px) and (max-width: 1449px),
+only screen and (min-width: 550px) and (max-width: 949px),
+only screen and (min-width: 400px) and (max-width: 549px),
+only screen and (min-width: 350px) and (max-width: 399px),
+only screen and (max-width: 349px) {
+  .Button__Container button {
+    margin: .5em auto;
+    display: inline-block;
+    width: auto;
+    font-size: .8125rem;
+    min-height: 28px;
+    padding: .35rem 1rem;
+    line-height: initial;
+  }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 549px),
+only screen and (min-width: 350px) and (max-width: 399px),
+only screen and (max-width: 349px) {
+  .Button__Container button {
+    margin: 0 auto;
+  }
+}
+
+.Card__Text .Button__Container .Button__Extra__large{
+  font-size: 1.875rem;
+  font-weight: bold;
+  min-height: 70px;
+}
+
+@media only screen and (min-width: 950px) and (max-width: 1449px) {
+  .Card__Text .Button__Container .Button__Extra__large{
+    font-size: 1.625rem;
+    min-height: 60px;
+  }
+}
+
+@media only screen and (min-width: 550px) and (max-width: 949px),
+only screen and (min-width: 400px) and (max-width: 549px),
+only screen and (min-width: 350px) and (max-width: 399px),
+only screen and (max-width: 349px) {
+  .Card__Text .Button__Container .Button__Extra__large{
+    font-size: 1rem;
+    min-height: 44px;
+  }
+}
+
+.watchOnTv button,
+.downloadAndWatch button,
+.watchOnDevice button{
+  color: white;
+  background: rgba(0, 0, 0, 0);
+  border: 1px solid white;
+  box-shadow: none;
+  min-height: 48px;
+  font-size: 1.625rem;
+}

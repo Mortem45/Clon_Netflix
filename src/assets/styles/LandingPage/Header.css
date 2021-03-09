@@ -1,0 +1,130 @@
+.Header__Container {
+  background-color: transparent;
+  transition: background-color 0.5s;
+  position: relative;
+  max-width: 1920px;
+  margin: 0 auto;
+  padding-top: 20px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 5rem;
+  z-index: 10;
+}
+
+@media only screen and (min-width: 950px) and (max-width: 1449px) {
+  .Header__Container {
+    height: 4rem;
+  }
+}
+
+@media only screen and (min-width: 550px) and (max-width: 949px),
+only screen and (min-width: 400px) and (max-width: 549px),
+only screen and (min-width: 350px) and (max-width: 399px),
+only screen and (max-width: 349px) {
+  .Header__Container {
+    height: 45px;
+  }
+}
+
+.Header {
+  position: relative;
+  margin: 0 3.5rem;
+  height: 100%;
+}
+
+@media only screen and (min-width: 550px) and (max-width: 949px) {
+  .Header {
+    margin: 0 45px;
+  }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 549px),
+only screen and (min-width: 350px) and (max-width: 399px),
+only screen and (max-width: 349px) {
+  .Header {
+    margin: 0 5%;
+  }
+}
+
+.Header.our-story-cta-container {
+  float: right;
+}
+
+.Header__Logo {
+  text-decoration: none;
+  font-size: 1.8em;
+  color: #E50914;
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.Header__Logo::before {
+  content: '\e5d0';
+}
+
+@media screen and (min-width: 950px)
+.Header__Logo {
+    font-size: 25px;
+}
+
+@media screen and (min-width: 1150px)
+.Header__Logo {
+    margin-right: 25px;
+}
+
+@media only screen and (min-width: 950px) and (max-width: 1449px) {
+  .Header__Logo {
+    height: 36px;
+    width: 134px;
+  }
+}
+
+@media only screen and (min-width: 550px) and (max-width: 949px) {
+  .Header__Logo {
+    height: 32px;
+    width: 108px;
+  }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 549px),
+only screen and (min-width: 350px) and (max-width: 399px),
+only screen and (max-width: 349px) {
+  .Header__Logo {
+    height: 24px;
+    width: 30%;
+  }
+}
+
+.Header__Auth {
+  color: #ffffff;
+  border-radius: 4px;
+  margin-top: 0.5rem;
+}
+
+.Header__Auth:hover {
+  text-decoration: none;
+}
+
+.Header__Auth {
+  background-color: #e50914;
+  line-height: normal;
+  padding: 7px 17px;
+  font-weight: 400;
+  font-size: 1rem;
+  float: right;
+}
+
+@media only screen and (min-width: 400px) and (max-width: 549px),
+only screen and (min-width: 350px) and (max-width: 399px),
+only screen and (max-width: 349px) {
+  .Header__Auth {
+    font-size: 0.9rem;
+    margin-top: 0.35rem;
+    padding: 0.25rem 0.5rem;
+  }
+}

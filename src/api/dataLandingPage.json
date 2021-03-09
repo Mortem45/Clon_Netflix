@@ -1,0 +1,81 @@
+{
+  "cards": {
+    "hero": {
+      "title": "Enjoy a free trial when you join using your credit card.",
+      "subtitle": "Hollywood movies. Comedy. Drama. Sci fi. We have something for everyone.",
+      "image": "https://assets.nflxext.com/ffe/siteui/vlv3/b240387e-2a90-4525-8ad6-f51af8d75e69/7241dd89-1b0f-4953-995f-e583ceee8a7f/GT-en-20191014-popsignuptwoweeks-perspective_alpha_website_small.jpg",
+      "image1000": "https://assets.nflxext.com/ffe/siteui/vlv3/b240387e-2a90-4525-8ad6-f51af8d75e69/7241dd89-1b0f-4953-995f-e583ceee8a7f/GT-en-20191014-popsignuptwoweeks-perspective_alpha_website_small.jpg",
+      "image1500": "https://assets.nflxext.com/ffe/siteui/vlv3/b240387e-2a90-4525-8ad6-f51af8d75e69/7241dd89-1b0f-4953-995f-e583ceee8a7f/GT-en-20191014-popsignuptwoweeks-perspective_alpha_website_medium.jpg",
+      "image1800": "https://assets.nflxext.com/ffe/siteui/vlv3/b240387e-2a90-4525-8ad6-f51af8d75e69/7241dd89-1b0f-4953-995f-e583ceee8a7f/GT-en-20191014-popsignuptwoweeks-perspective_alpha_website_large.jpg"
+    },
+    "watchOnTv": {
+      "title": "Enjoy on your TV.",
+      "subtitle": "Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.",
+      "img_background": "https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png",
+      "video": "https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-0819.m4v"
+    },
+    "downloadAndWatch": {
+      "title": "Download your shows to watch on the go.",
+      "subtitle": "Save your data and watch all your favorites offline.",
+      "img_background": "https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg",
+      "img_background2": "https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/boxshot.png",
+      "texto_0": "Stranger Things",
+      "textp_1": "Downloading..."
+    },
+    "watchOnDevice": {
+      "title": "Watch everywhere.",
+      "subtitle": "Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV without paying more.",
+      "img_background": "https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile.png",
+      "video": "https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices.m4v"
+    },
+    "footer": {
+      "footer_link": [
+        {
+          "name":"Help Center"
+        },
+        {
+          "name":"Account"
+        },
+        {
+          "name":"Media Center"
+        },
+        {
+          "name":"Investor Relations"
+        },
+        {
+          "name":"Jobs"
+        },
+        {
+          "name":"Ways to Watch"
+        },
+        {
+          "name":"Terms of Use"
+        },
+        {
+          "name":"Privacy"
+        },
+        {
+          "name":"Corporate Information"
+        },
+        {
+          "name":"Contact Us"
+        },
+        {
+          "name":"Speed Test"
+        },
+        {
+          "name":"Legal Notices"
+        },
+        {
+          "name":"Netflix Originals"
+        }
+      ],
+      "question": "Questions? Call",
+      "tel": "+1 (408)600-1719 (USA)",
+      "country": "Netflix Guatemala"
+    }
+  },
+  "button_free": "TRY 30 DAYS FREE",
+  "signin": "Sign In",
+  "logo": "https://i.ibb.co/r5krrdz/logo.png"
+}

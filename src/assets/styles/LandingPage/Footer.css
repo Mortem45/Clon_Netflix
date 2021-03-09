@@ -1,0 +1,190 @@
+.footer {
+  max-width: 1000px;
+  margin: 0 auto;
+  border-bottom: none;
+}
+
+.Footer__Container {
+  min-width: 190px;
+  width: 100%;
+  margin-top: 0;
+  padding-bottom: 20px;
+  font-size: 1em;
+  color: #999;
+  position: relative;
+  margin-bottom: 80px;
+}
+
+.Footer {
+  margin: 0 auto;
+  padding: 30px 0;
+  width: 90%;
+}
+
+@media only screen and (min-width: 740px) {
+  .Footer {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+}
+
+.Footer__Top {
+  padding: 0;
+  margin: 0 0 30px;
+}
+
+.Footer__Top a {
+  color: #999;
+}
+
+.Footer__Ul {
+  max-width: 1000px;
+  font-size: 13px;
+  box-sizing: border-box;
+}
+
+ul.Footer__Ul {
+  padding: 0;
+  margin: 0;
+}
+
+ul.Footer__Ul>li {
+  list-style: none;
+  margin-left: 0;
+}
+
+.Footer__Item {
+  box-sizing: border-box;
+  padding: 0;
+  margin-bottom: 16px;
+  display: inline-block;
+  min-width: 100px;
+  width: 25%;
+  padding-right: 12px;
+  vertical-align: top;
+}
+
+@media only screen and (max-width: 740px) {
+  .Footer__Item {
+    width: 33%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .Footer__Item {
+    width: 50%;
+  }
+}
+
+.Footer__Link {
+  color: #999;
+}
+
+.Footer__Country {
+  font-size: 13px;
+  margin-top: 24px;
+}
+
+
+.Footer__Select__Container {
+  margin-top: 20px;
+  width: auto;
+  display: inline-block;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+.Footer__Select__Container .Footer__Select__Row.Footer__Select{
+  text-indent: 0;
+  padding-right: 26px;
+}
+
+.Footer__Select__Container .Footer__Select {
+  background-color: #fff;
+  background-image: linear-gradient(to bottom, #fff, #f7f7f7);
+  font-size: 13px;
+  background-color: #000000;
+  background-image: none;
+  border: 1px solid #333333;
+  color: #999;
+  font-size: 16px;
+  -webkit-appearance: none;
+  -moz-appearance:    none;
+  appearance:         none;
+}
+
+
+.Footer__Select__Container .Footer__Select__Row {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.Footer__Select__Container .Footer__Select__Row::after {
+  font-family: 'nf-icon';
+  color: black;
+  font-size: 6px;
+  content: '\e898';
+  position: absolute;
+  pointer-events: none;
+}
+
+.Footer__Select__Container .Footer__Select__Row::after {
+  right: 10px;
+  top: 18px;
+  color: #999
+}
+
+.Footer__Select__Container .Footer__Select__Row::before {
+  top: 11px;
+  left: 15px;
+}
+
+.Footer__Select__Container .Footer__Select__Row::before {
+  content: '\e896';
+}
+
+.Footer__Select__Container .Footer__Select__Row::before {
+  font-family: 'nf-icon';
+  font-size: 16px;
+  position: absolute;
+  pointer-events: none;
+}
+
+.Footer__Select__Container .Footer__Select__Row .Footer__Select{
+  padding-left: 50px;
+  text-indent: 2px;
+  line-height: 1.7;
+}
+
+.Footer__Select__Container .Footer__Select__Row::before {
+  top: 14px;
+}
+
+.Footer__Select__Container .Footer__Select__Row .Footer__Select{
+  text-indent: 0;
+  padding-right: 26px;
+}
+
+
+.Footer__Select {
+  background: #fff;
+  font-size: 16px;
+  border: 1px solid #b3b3b3;
+  appearance: none;
+  border-radius: 2px;
+  width: 100%;
+  padding: 12px;
+}
+
+.Footer__Select::-ms-expand {
+  display: none;
+}
+
+@media only screen AND (min-width: 740px) {
+  .Footer__Select__Container {
+    max-width: 600px;
+  }
+}

@@ -1,0 +1,106 @@
+.Ilustration_Container {
+  width: 48%;
+  height: 100%;
+  display: flex;
+  flex: 0 1 auto;
+  box-sizing: border-box;
+  position: relative;
+}
+
+
+@media only screen and (min-width: 550px) and (max-width: 949px),
+only screen and (min-width: 400px) and (max-width: 549px),
+only screen and (min-width: 350px) and (max-width: 399px),
+only screen and (max-width: 349px) {
+  .Ilustration_Container {
+    width: 100%;
+    max-width: 600px;
+    margin-top: 1em;
+    margin: 0 auto;
+  }
+}
+
+.Ilustration {
+  position: relative;
+}
+
+@media only screen and (min-width: 550px) and (max-width: 949px),
+only screen and (min-width: 400px) and (max-width: 549px),
+only screen and (min-width: 350px) and (max-width: 399px),
+only screen and (max-width: 349px) {
+  .Ilustration {
+    margin: 0 auto;
+  }
+}
+
+
+.watchOnTv,
+.watchOnDevice,
+.downloadAndWatch {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.downloadAndWatch {
+  flex-flow: row-reverse;
+}
+
+@media only screen and (min-width: 550px) and (max-width: 949px),
+only screen and (min-width: 400px) and (max-width: 549px),
+only screen and (min-width: 350px) and (max-width: 399px),
+only screen and (max-width: 349px) {
+  .watchOnTv,
+  .watchOnDevice,
+  .downloadAndWatch {
+    flex-direction: column;
+  }
+}
+
+
+
+.watchOnTv .Ilustration {
+  margin: -10% -5% -5% 0;
+}
+
+@media only screen and (min-width: 550px) and (max-width: 949px),
+only screen and (min-width: 400px) and (max-width: 549px),
+only screen and (min-width: 350px) and (max-width: 399px),
+only screen and (max-width: 349px) {
+  .watchOnTv .Ilustration {
+    margin: -10% 0 0 0;
+  }
+}
+
+
+.watchOnDevice .Ilustration {
+  margin: -5% -10% 0 0;
+}
+
+@media only screen and (min-width: 550px) and (max-width: 949px),
+only screen and (min-width: 400px) and (max-width: 549px),
+only screen and (min-width: 350px) and (max-width: 399px),
+only screen and (max-width: 349px) {
+  .watchOnDevice .Ilustration {
+    margin: -5% 0 0 0;
+  }
+}
+
+
+.downloadAndWatch .Ilustration {
+  margin: -8% 0 -4% -15%;
+  /* styles to keep the layout from going too weird before the images load */
+  min-height: 100px;
+  width: 100%;
+}
+
+@media only screen and (min-width: 550px) and (max-width: 949px),
+only screen and (min-width: 400px) and (max-width: 549px),
+only screen and (min-width: 350px) and (max-width: 399px),
+only screen and (max-width: 349px) {
+  .downloadAndWatch .Ilustration {
+    margin: -8% 0 0 0;
+  }
+}

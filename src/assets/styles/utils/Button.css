@@ -1,0 +1,97 @@
+.Button__Bar {
+  padding: 0 0 1em;
+  clear: both;
+}
+
+.Button__Bar__Left{
+  text-align: left;
+}
+
+.Button__Bar__Left.Button {
+  margin-right: 1em;
+  margin-left: 0;
+}
+
+.Button__Bar__Right {
+  text-align: right;
+}
+
+.Button__Bar__Right .Button {
+  margin-right: 0;
+  margin-left: 1em;
+}
+
+.Button__Bar-center {
+  text-align: center;
+}
+
+.Button__Bar-center .Button {
+  margin-right: 0.5em;
+  margin-left: 0.5em;
+}
+
+.Button {
+  display: inline-block;
+  text-decoration: none;
+  line-height: 1em;
+  vertical-align: middle;
+  cursor: pointer;
+  font-weight: 400;
+  letter-spacing: .1px;
+  border-radius: 2px;
+  user-select: none;
+  text-align: center;
+  box-sizing: border-box;
+  border: 0;
+  position: relative;
+  color: #000;
+  background-color: #e6e6e6;
+  background-image: linear-gradient(to bottom, #e6e6e6, #dddddd);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+}
+
+.Button .Button__Text {
+  position: relative;
+  top: 1px;
+}
+
+.Button.Button__Large {
+  font-size: 20px;
+  padding: 14px 2em;
+  min-width: 112px;
+  min-height: 48px;
+}
+
+@media only screen and (max-width: 500px) {
+  .Button.Button__Large {
+    width: 100%;
+    margin: .5em auto;
+  }
+}
+
+
+.Button__Red {
+  color: #fff;
+  background-color: #e50914;
+  background-image: linear-gradient(to bottom, #e50914, #db0510);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.45);
+}
+
+.Button__Red:hover,
+.Button__Red:focus {
+  background: #f40612;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.45);
+}
+
+.Button__Red:focus {
+  box-shadow: 0 0 0 0.085em #85050b;
+}
+
+.Button__Red:active {
+  background: #bb0a12;
+}
+.Button__Red.disabled {
+  background-color: #e50914;
+  background-image: linear-gradient(to bottom, #e50914, #db0510);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.45);
+}

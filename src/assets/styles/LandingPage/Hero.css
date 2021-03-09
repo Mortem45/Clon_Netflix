@@ -1,0 +1,115 @@
+.Pres__Hero__Container {
+  z-index: 0;
+  position: absolute;
+  top: -51px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+
+@media only screen and (min-width: 550px) and (max-width: 949px) {
+  .Pres__Hero__Container {
+    top: -70px;
+  }
+}
+
+@media only screen and (min-width: 950px) and (max-width: 1449px),
+only screen and (min-width: 1450px) {
+  .Pres__Hero__Container {
+    top: -100px;
+  }
+}
+
+
+.Hero {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+
+@media only screen and (min-width: 400px) and (max-width: 549px),
+only screen and (min-width: 350px) and (max-width: 399px),
+only screen and (max-width: 349px) {
+  .Hero {
+    bottom: auto;
+  }
+}
+
+
+.Hero__Img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: scale(1.25) translateY(-10%);
+}
+
+.Hero__Img {
+  transform: none;
+}
+
+@media only screen and (min-width: 400px) and (max-width: 549px),
+only screen and (min-width: 350px) and (max-width: 399px),
+only screen and (max-width: 349px) {
+  .Hero__Img {
+    height: auto;
+    transform: none;
+  }
+}
+
+@media only screen and (min-width: 550px) and (max-width: 949px) and (orientation: portrait),
+only screen and (min-width: 400px) and (max-width: 549px),
+only screen and (min-width: 350px) and (max-width: 399px),
+only screen and (max-width: 349px) {
+  .Hero__Img {
+    height: 100%;
+    width: auto;
+    object-fit: cover;
+  }
+}
+
+.Hero__Img_Gradient {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%), radial-gradient(50% 100%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%);
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.Hero__Img_Gradient {
+  background: rgba(0, 0, 0, 0.4);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+}
+
+@media only screen and (min-width: 400px) and (max-width: 549px),
+only screen and (min-width: 350px) and (max-width: 399px),
+only screen and (max-width: 349px) {
+  .Hero__Img_Gradient {
+    background: transparent;
+    background-image: linear-gradient(to top, black 0%, transparent 30%);
+  }
+
+  .Hero__Img_Gradient:before {
+    content: '';
+    height: 70px;
+    width: 100%;
+    position: absolute;
+    background-image: linear-gradient(to bottom, #000000 25%, rgba(0, 0, 0, 0));
+  }
+}
+
+
+@media only screen and (min-width: 550px) and (max-width: 949px) and (orientation: portrait),
+only screen and (min-width: 400px) and (max-width: 549px),
+only screen and (min-width: 350px) and (max-width: 399px),
+only screen and (max-width: 349px) {
+  .Hero__Img_Gradient {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.8) 100%);
+  }
+}
+

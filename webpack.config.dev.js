@@ -45,7 +45,8 @@ module.exports = {
           {
             loader: MiniCssExtractPlugin.loader,
             options: {
-              minimize: true,
+              esModule: true,
+              // minimize: true,
               publicPath: (resourcePath, context) => {
                 return path.relative(path.dirname(resourcePath), context) + '/'
               }
@@ -97,7 +98,9 @@ module.exports = {
     extensions: ['.js', '.jsx', '.react.js'],
     mainFields: ['browser', 'jsnext:main', 'main'],
     alias: {
-      'enl-components': path.resolve(__dirname, './src/components/')
+      'enl-components': path.resolve(__dirname, './src/components/'),
+      'enl-containers': path.resolve(__dirname, './src/containers/'),
+      'enl-styles': path.resolve(__dirname, './src/assets/styles/'),
     }
   }
 }

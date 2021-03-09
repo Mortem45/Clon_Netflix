@@ -1,0 +1,34 @@
+.watchOnTv .IlustrationRight__Img,
+.watchOnDevice .IlustrationRight__Img {
+  position: relative;
+  z-index: 2;
+}
+
+.watchOnTv .IlustrationRight__Container__Video {
+  width: 100%;
+  height: 100%;
+  max-width: 73%;
+  max-height: 54%;
+  position: absolute;
+  top: 46%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.watchOnDevice .IlustrationRight__Container__Video {
+  width: 100%;
+  height: 100%;
+  max-width: 63%;
+  max-height: 47%;
+  position: absolute;
+  top: 34%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.watchOnTv .IlustrationRight__Video,
+.watchOnDevice .IlustrationRight__Video {
+  width: 100%;
+  height: 100%;
+}
