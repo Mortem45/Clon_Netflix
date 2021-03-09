@@ -91,5 +91,13 @@ module.exports = {
       filename: 'css/[name].css',
       chunkFilename: '[id].css'
     })
-  ]
+  ],
+  resolve: {
+    modules: ['node_modules', 'app'],
+    extensions: ['.js', '.jsx', '.react.js'],
+    mainFields: ['browser', 'jsnext:main', 'main'],
+    alias: {
+      'enl-components': path.resolve(__dirname, './src/components/')
+    }
+  }
 }
