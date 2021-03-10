@@ -6,7 +6,7 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin')
 const nodeExternals = require('webpack-node-externals')
 
 module.exports = {
-  entry: './src/app.js',
+  entry: './src/index.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'ssr/[name].js',
@@ -57,7 +57,8 @@ module.exports = {
           {
             loader: MiniCssExtractPlugin.loader,
             options: {
-              minimize: true,
+              esModule: true,
+              // minimize: true,
               publicPath: (resourcePath, context) => {
                 return path.relative(path.dirname(resourcePath), context) + '/'
               }
@@ -100,7 +101,6 @@ module.exports = {
       debug: false
     }),
     new webpack.DefinePlugin(false),
-    new webpack.NamedModulesPlugin(),
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
       template: './public/index.html',
@@ -110,5 +110,15 @@ module.exports = {
       filename: 'css/[name].css',
       chunkFilename: '[id].css'
     })
-  ]
+  ],
+  resolve: {
+    modules: ['node_modules', 'app'],
+    extensions: ['.js', '.jsx', '.react.js'],
+    mainFields: ['browser', 'jsnext:main', 'main'],
+    alias: {
+      'enl-components': path.resolve(__dirname, './src/components/'),
+      'enl-containers': path.resolve(__dirname, './src/containers/'),
+      'enl-styles': path.resolve(__dirname, './src/assets/styles/'),
+    }
+  }
 }
