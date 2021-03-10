@@ -1,0 +1,57 @@
+.LoginBodyContainer__Container {
+  color: #333;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+@media only screen and (min-width: 740px) {
+  .LoginBodyContainer__Container {
+    margin: 0 auto -236px;
+    min-height: 100vh;
+    background-color: transparent;
+    max-width: 450px;
+  }
+
+  .LoginBodyContainer__Container:before {
+    content: "";
+    height: 91px;
+    display: block;
+  }
+
+  .LoginBodyContainer__Container:after {
+    content: "";
+    height: 236px;
+    display: block;
+  }
+  .LoginBodyContainer {
+    min-height: 660px;
+    padding: 60px 68px 40px;
+    margin-bottom: 90px;
+  }
+}
+
+.LoginBodyContainer {
+  background-color: rgba(0, 0, 0, 0.75);
+  border-radius: 4px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 90px 0;
+  width: 100%;
+}
+
+.LoginBodyContainer h1 {
+  color: #fff;
+  font-size: 32px;
+  font-weight: bold;
+  padding-top: 20px;
+  margin: 0 0 10px 0;
+  margin-bottom: 28px;
+  padding: 0;
+}
+
+@media only screen and (min-width: 500px) {
+  .LoginBodyContainer {
+    min-width: 380px;
+  }
+}

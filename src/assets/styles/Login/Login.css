@@ -1,0 +1,109 @@
+#app {
+  height: 100%;
+}
+
+@media only screen and (min-width: 740px) {
+
+  #app {
+    background-color: transparent;
+    color: white;
+  }
+}
+
+#app > div {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  z-index: 0;
+}
+
+#app > div .LoginBackground {
+  display: none;
+}
+
+@media only screen and (min-width: 740px) {
+  #app > div {
+    background-color: black;
+    color: white;
+  }
+
+  #app > div .LoginBackground {
+    background-size: cover;
+    display: block;
+    height: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+  }
+
+  #app > div .LoginBackground .LoginBackground__Img {
+    min-height: 100%;
+    min-width: 100%;
+  }
+
+}
+
+img {
+  border: 0;
+}
+
+html,
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background: #f3f3f3;
+  color: #333;
+  font-size: 16px;
+  direction: ltr;
+}
+
+body {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+input, textarea, select, button {
+    text-align: initial;
+    text-indent: initial;
+    text-shadow: initial;
+    text-transform: initial;
+    word-spacing: initial;
+    letter-spacing: initial;
+}
+
+input {
+    text-rendering: optimizeLegibility;
+    cursor: text;
+    user-select: text;
+}
+
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+
+label {
+  cursor: default;
+}
+
+button {
+  position: relative;
+  overflow: visible;
+  color: #fff;
+
+}
+
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+  cursor: pointer;
+}
+
+button, select {
+    text-transform: none;
+}

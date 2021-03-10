@@ -1,0 +1,105 @@
+.LoginBodyFormPrincipal__Container {
+  flex-grow: 1;
+}
+
+.LoginBodyFormPrincipal__Form {
+  margin-bottom: 0;
+}
+
+.LoginBodyFormPrincipal__Input__Container {
+  padding-bottom: 16px;
+  max-width: 100%;
+  position: relative;
+}
+
+
+.LoginBodyFormPrincipal__Input__Error {
+  color: #E87C03;
+  margin-bottom: -6px;
+  padding: 6px 3px;
+  font-size: 13px;
+}
+
+.LoginBodyFormPrincipal__Input__Container2 {
+  position: relative;
+}
+
+.LoginBodyFormPrincipal__Input__Container3 {
+  position: relative;
+  border-radius: 4px;
+  border: 0;
+}
+
+.LoginBodyFormPrincipal__Input {
+  border-radius: 4px;
+  border: 0;
+  color: #fff;
+  display: block;
+  box-shadow: none;
+  height: 50px;
+  line-height: 50px;
+  box-sizing: border-box;
+  font-size: 16px;
+  padding: 16px 20px 0;
+  width: 100%;
+  background: #333;
+}
+
+.LoginBodyFormPrincipal__Input:focus {
+  background: #454545;
+}
+
+.LoginBodyFormPrincipal__Input__Label2 {
+  left: 20px;
+  font-size: 16px;
+  position: absolute;
+  top: 50%;
+  color: #8c8c8c;
+  transform: translateY(-50%);
+  transition: font 0.1s ease, top 0.1s ease, transform 0.1s ease;
+}
+
+.LoginBodyFormPrincipal__Input__Label2:focus {
+  top: 7px;
+  font-size: 11px;
+  transform: translateY(0);
+}
+
+.LoginBodyFormPrincipal__Button {
+  border-radius: 4px;
+  position: relative;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 24px 0 12px;
+  background: #E50914;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.55);
+  vertical-align: middle;
+  cursor: pointer;
+  box-sizing: border-box;
+  border: 0;
+  user-select: none;
+  text-align: center;
+  letter-spacing: .1px;
+  color: white;
+}
+
+@media only screen and (min-width: 500px) {
+  .LoginBodyFormPrincipal__Button {
+    padding: 16px;
+    display: inline-block;
+    min-width: 98px;
+    min-height: 37px;
+    line-height: 1em;
+  }
+}
+
+@media only screen and (min-width: 360px) {
+  .LoginBodyFormPrincipal__Button {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+.LoginBodyFormPrincipal__Input__Label2 {
+  display: none;
+}

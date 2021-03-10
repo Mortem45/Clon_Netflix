@@ -1,0 +1,74 @@
+.RememberMe__Container {
+  display: flex;
+}
+
+.RememberMe__HelpLink {
+  color: #b3b3b3;
+  flex: 0 0 1;
+  font-size: 13px;
+  font-weight: 500;
+  padding-top: 2px;
+}
+
+.RememberMe__Text {
+  font-size: 14px;
+  color: #b3b3b3;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.RememberMe__Container__Input {
+  display: inline-block;
+  margin-bottom: -5px;
+  flex-grow: 1;
+  padding-left: 20px;
+  position: relative;
+  box-sizing: border-box;
+  user-select: none;
+  font-size: 16px;
+}
+
+.RememberMe__Container__Input input {
+  margin-right: 10px;
+}
+
+.RememberMe__Container__Input label {
+  padding: 0;
+}
+
+
+/* FIXME Befor & After pending */
+.RememberMe__Container__Input label:before {
+  background: #737373;
+  border-radius: 2px;
+  border: 0;
+  height: 16px;
+  left: -20px;
+  width: 16px;
+}
+
+.RememberMe__Container__Input input[type="checkbox"]::focus + label::before,
+.RememberMe__Container__Input input[type="checkbox"]::active + label::before {
+  background: #e6e6e6;
+  box-shadow: none;
+}
+
+.RememberMe__Container__Input input[type="checkbox"]::checked + label::after {
+  color: #000;
+  font-size: 18px;
+  left: -21px;
+  top: 0;
+}
+
+.RememberMe__Container__Input input[type="checkbox"] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+
+.RememberMe__Text::before {
+   color: #000;
+}

@@ -1,0 +1,46 @@
+{
+  "background": {
+    "image": "https://assets.nflxext.com/ffe/siteui/vlv3/e201408d-1f98-4f82-91de-41337ad8f35f/123e7794-c13d-4bd2-978d-3d3207c4dc3b/GT-en-20191028-popsignuptwoweeks-perspective_alpha_website_small.jpg",
+    "image1000": "https://assets.nflxext.com/ffe/siteui/vlv3/e201408d-1f98-4f82-91de-41337ad8f35f/123e7794-c13d-4bd2-978d-3d3207c4dc3b/GT-en-20191028-popsignuptwoweeks-perspective_alpha_website_small.jpg",
+    "image1500": "https://assets.nflxext.com/ffe/siteui/vlv3/e201408d-1f98-4f82-91de-41337ad8f35f/123e7794-c13d-4bd2-978d-3d3207c4dc3b/GT-en-20191028-popsignuptwoweeks-perspective_alpha_website_medium.jpg",
+    "image1800": "https://assets.nflxext.com/ffe/siteui/vlv3/e201408d-1f98-4f82-91de-41337ad8f35f/123e7794-c13d-4bd2-978d-3d3207c4dc3b/GT-en-20191028-popsignuptwoweeks-perspective_alpha_website_large.jpg"
+  },
+  "logo": "https://i.ibb.co/r5krrdz/logo.png",
+  "footer": {
+    "footer_link": [
+      {
+        "name": "Gift Card Terms"
+      },
+      {
+        "name": "Terms of Use"
+      },
+      {
+        "name": "Privacy Statement"
+      }
+    ],
+    "question": "Questions? Call",
+    "tel": "+1 (408)600-1719 (USA)",
+    "country": "Netflix Guatemala"
+  },
+  "form_principal" : {
+    "sing_in": "Sign In",
+    "errors": {
+      "email_error": "Please enter a valid email or phone number.",
+      "password_error": "Your password must contain between 4 and 60 characters."
+    },
+    "labels": {
+      "email": "Email or phone number",
+      "password": "Password"
+    },
+    "remember_me": {
+      "remember": "Remember me",
+      "question": "Need help?"
+    }
+  },
+  "sign_up": {
+    "logo_fb" : "https://assets.nflxext.com/ffe/siteui/login/images/FB-f-Logo__blue_57.png",
+    "login_fb": "Login with Facebook",
+    "question": "New to Netflix?",
+    "signup": "Sign up now"
+  }
+}

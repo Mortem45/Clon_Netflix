@@ -1,0 +1,60 @@
+.SignUpLink__Container {
+  flex: 0 0 1;
+}
+
+.SignUpLink__Form_Login {
+  margin-bottom: 0;
+}
+
+.SignUpLink__FB__Login {
+  margin-bottom: 0;
+}
+
+.SignUpLink__Button {
+  margin-top: 16px;
+  min-height: 0;
+  width: auto;
+  border: none;
+  background: transparent;
+  box-shadow: none;
+  padding: 0;
+  margin: 0;
+}
+
+@media only screen and (min-width: 500px) {
+  .SignUpLink__Button {
+    display: inline-block;
+    font-size: 13px;
+    min-width: 98px;
+    line-height: 1em;
+  }
+}
+
+.SignUpLink__Container__Img {
+  background: transparent;
+  color: #0080FF;
+  cursor: pointer;
+  border: none;
+  font-size: 14px;
+}
+
+.SignUpLink__Icon {
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+  vertical-align: middle;
+  color: #fff;
+}
+
+.SignUpLink__Icon__Text {
+  color: #737373;
+font-size: 13px;
+font-weight: 500;
+}
+
+.SignUpLink__SignUp {
+  color: #737373;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 16px;
+}
