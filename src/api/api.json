@@ -1,0 +1,462 @@
+{
+  "hero": [
+    {
+      "title": "Rick And Morty",
+      "background": "https://occ-0-1063-3933.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABb7tTdOT9jo49_du5reifbYegoXcLW3K-RIJIhYKJfldAfEoVVxpH_72k0mhhiTG6i7HlJ1-EWuXpUW61SpMTs93_qkC.jpg?r=c60",
+      "title_image": "https://occ-0-1063-3933.1.nflxso.net/dnm/api/v6/5e0byrbbfBPBmtxyXMpKqMuqOQY/AAAABX-bE6u_I2FTiZ99dZRJHZA8kPiR14NO7ZV2NkySWVpnMNzbsqiB3zUEtnBARyN4pxG8k0KoZcgiXOv9s64si8ulWCTRv-fYYMnR.png?r=221",
+      "synopsis": "Rick an alcoholic and careless scientific genius, with his grandson Morty who is not so intelligent. Together, they explore the infinite universes, causing chaos and problems."
+    },
+    {
+      "title": "Saint Seiya",
+      "background": "https://occ-0-2296-3933.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABSEsSQPtk6NVv-NB5_BtdTC7ifUcrby5pjniwIjiBJ9EPij7yPhuFv4Q1tB8n8RSSNCfg64tvp2lcZ0yqtBRUg_ZLLVm.webp?r=1d2",
+      "title_image": "https://occ-0-2296-3933.1.nflxso.net/dnm/api/v6/5e0byrbbfBPBmtxyXMpKqMuqOQY/AAAABW_zYRHlDvqgP8Giqs_HPWbJwJJJ9JW9XjNmx97DOEGjBBFDHz52Z4ESPVnmMv0SsLCikSdLsxP5hOka8Y6hRq5z1-08rpnC38Nf.webp?r=cc8",
+      "synopsis": "They've all trained from a young age to become one of the 88 sacred Knights of Athena. The Pegasus Knight will rise."
+    },
+    {
+      "title": "Love, Death + Robots",
+      "background": "https://occ-0-2296-3933.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABZt7P7RCDo_XkhrNq4ED5CLLCa4bgvcRxKYkfetbUxwmEGfw0kUoL-jxuap2OihN8RrkDlUkIu72dNG8E1IcKSyUFYK8.jpg?r=5ff",
+      "title_image": "https://occ-0-2296-3933.1.nflxso.net/dnm/api/v6/5e0byrbbfBPBmtxyXMpKqMuqOQY/AAAABfOxIFnD6q0ihbWHuA33PMphUULjXRM4E1qXVjCtwiJitZyfa-jO_8LXv1OQeSA5KxOaf6YBKdqOgy8ZYUdwcemwqLDnpnVh2ql1AVuRH1hMaWVJ4b32Bj5ZM0vhW7S3MhzwR-JEOM0iUrbQOTEmVYAzaPJrOXQ2C0E96OLqNhD5sg.png?r=2db",
+      "synopsis": "Elite units of the Red Army fight an unholy evil deep in the ancient forests of Siberia."
+    },
+    {
+      "title": "Un Natural Selection",
+      "background": "https://occ-0-2296-3933.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABb5aO_Q4ATU5lerg9bHlzvRevtPSPTZgmtAZeQKWPsDr-Vmyov56yBwR0iaGD3NzLd9mTfC0jYYFEuibGrWx7cCeiYGI.jpg?r=61a",
+      "title_image": "https://occ-0-2296-3933.1.nflxso.net/dnm/api/v6/5e0byrbbfBPBmtxyXMpKqMuqOQY/AAAABbJBIAsQvJcxMiew9g9tW9ZgqEgfmbDNGZKx_aS12BwfYp2OdIGfmk5HCmI8beqXhF4DKFUtESX5-2fxE5BLC6h2wup8cjaRGAf0Vm-NEmKnSFCjnL2tGSgw16fdNSZ_dCMUvuyFYKK9m9cG8IHAwrY3NCoJtuKYIteN1EePQSJrbA.png?r=881",
+      "synopsis": "The breakthroughs. The biohackers. The beneficiaries. Empowered to edit genomes, we can save millions. But should we?"
+    },
+    {
+      "title": "Black Mirror",
+      "background": "https://occ-0-2296-3933.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABWj2VKCWXomUSiI2KNtNLDOv-VSvZawwOtVTV94JOmu6cSQcNsl7iULC09rotD-8B6NJY7TPquDLGByTmqfJHpmqmXJt.jpg?r=8f8",
+      "title_image": "https://occ-0-2296-3933.1.nflxso.net/dnm/api/v6/5e0byrbbfBPBmtxyXMpKqMuqOQY/AAAABa73HORh4RGQMbzde3HAJA-qlQMToiE6n1ZrTEJvW2hLn4NQdB9LO7tru0MVgs_7ADqZ3vfJ4zMWTUBSrG713df__dAv3eDqTiMdbMpETsPSSu6ohPDqElF4bh153Z_BzAnbmXCC6jT0lWcuMF7HVNyA6Ufw3V17N8dLt_9eTBgWfg.png?r=88e",
+      "synopsis": "A lonely teen becomes obsessed with a robot doll based on her pop star idol, Ashley O -- just as the real Ashley's life begins to unravel."
+    }
+  ],
+  "lists": [
+    {
+      "id": 1,
+      "title": "My List",
+      "items": []
+    },
+    {
+      "id": 2,
+      "title": "Popular on Netflix",
+      "items": [
+        {
+          "id": 1,
+          "title": "Sausage Party",
+          "maturity_ratings": 16,
+          "score": 96,
+          "duration": 88,
+          "year": 2016,
+          "synopsis": "After making a gruesome discovery about life beyond the supermarket, an affable sausage strives to save his fellow foods in this raunchy comedy.",
+          "boxart": "https://occ-0-2296-3933.1.nflxso.net/dnm/api/v6/XsrytRUxks8BtTRf9HNlZkW2tvY/AAAABaX6sGPpH-6TRAqQ-FRThLPnIzeP3BVgXq4wBTTylKs2io7JYqFcBxqTxFDSaQ5HN91eOYpqUpxHnR1A_FIfvl8Edw.jpg?r=a0e",
+          "background": "https://occ-0-2296-3933.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABRUJDCSJSHQPOqPDk9sMNrtE72_yB2JOIjVNrGa7zD8Dj-bPI9qR6Z_ayZ9bmmGut94yjiFmsozFIVfmKeXo47r49a2J.jpg?r=940",
+          "title_image": "https://occ-0-2296-3933.1.nflxso.net/dnm/api/v6/jsgGe9NCko3c-j0wGZ7FSwVlHs0/AAAABQUrQ6yG-E8pRbQ9EGiNJJpM5rUuwOMBBYGFQetG92RjiyIUgLvtnrD7GXC_pk_qYelkotUmAaoxx0OWTdhy0EQk6oRaQwHYNg.png?r=612",
+          "starring": [155, 155, 155],
+          "genres": [132, 132, 132],
+          "video": 99999
+        },
+        {
+          "id": 2,
+          "title": "Fantastic Beasts and Where to Find Them",
+          "maturity_ratings": 13,
+          "score": 88,
+          "duration": 132,
+          "year": 2016,
+          "synopsis": "While visiting New York in 1926, the courageous and eccentric wizard Newt Scamander uncovers a sinister plot that threatens the wizarding community.",
+          "boxart": "https://occ-0-2296-3933.1.nflxso.net/dnm/api/v6/XsrytRUxks8BtTRf9HNlZkW2tvY/AAAABV9IVCesbFMXkFegBcFiBkDeHeUpVXO81jeVvri-F_RPQ5tldjzPmqKNNOSIFCjOfsmyxIfHj4QhA7Vr2wvDYgXFKA.jpg?r=55e",
+          "background": "https://occ-0-2296-3933.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABWG6xYGUsZEljWKryhE5QqNYkGvCBNTf3m5RFrPeVex0y5TLDlJh6-lxHOXB8iQ8798EAJrYqPVR5X6ruvozSkHQWf5l.jpg?r=762",
+          "title_image": "https://occ-0-2296-3933.1.nflxso.net/dnm/api/v6/jsgGe9NCko3c-j0wGZ7FSwVlHs0/AAAABZcUEjkz-e_SgeZiV7QHE_62RFXht2Fhq-vWeoTet8WN4fb-kXtOiPPA4xlUYBSA9YO7mFuIlddCI-P2xHb8zjq8u-7x5TygLg.png?r=b21",
+          "starring": [155, 155, 155],
+          "genres": [132, 132, 132],
+          "video": 99999
+        },
+        {
+          "id": 3,
+          "title": "The Nightmare Before Christmas",
+          "maturity_ratings": 13,
+          "score": 92,
+          "duration": 132,
+          "year": 2016,
+          "synopsis": "While visiting New York in 1926, the courageous and eccentric wizard Newt Scamander uncovers a sinister plot that threatens the wizarding community.",
+          "boxart": "https://occ-0-2296-3933.1.nflxso.net/dnm/api/v6/XsrytRUxks8BtTRf9HNlZkW2tvY/AAAABV9IVCesbFMXkFegBcFiBkDeHeUpVXO81jeVvri-F_RPQ5tldjzPmqKNNOSIFCjOfsmyxIfHj4QhA7Vr2wvDYgXFKA.jpg?r=55e",
+          "background": "https://occ-0-2296-3933.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABWG6xYGUsZEljWKryhE5QqNYkGvCBNTf3m5RFrPeVex0y5TLDlJh6-lxHOXB8iQ8798EAJrYqPVR5X6ruvozSkHQWf5l.jpg?r=762",
+          "title_image": "https://occ-0-2296-3933.1.nflxso.net/dnm/api/v6/jsgGe9NCko3c-j0wGZ7FSwVlHs0/AAAABZcUEjkz-e_SgeZiV7QHE_62RFXht2Fhq-vWeoTet8WN4fb-kXtOiPPA4xlUYBSA9YO7mFuIlddCI-P2xHb8zjq8u-7x5TygLg.png?r=b21",
+          "starring": [155, 155, 155],
+          "genres": [132, 132, 132],
+          "video": 99999
+        },
+        {
+          "id": 4,
+          "title": "Sausage Party",
+          "maturity_ratings": 16,
+          "score": 96,
+          "duration": 88,
+          "year": 2016,
+          "synopsis": "After making a gruesome discovery about life beyond the supermarket, an affable sausage strives to save his fellow foods in this raunchy comedy.",
+          "boxart": "https://occ-0-2296-3933.1.nflxso.net/dnm/api/v6/XsrytRUxks8BtTRf9HNlZkW2tvY/AAAABaX6sGPpH-6TRAqQ-FRThLPnIzeP3BVgXq4wBTTylKs2io7JYqFcBxqTxFDSaQ5HN91eOYpqUpxHnR1A_FIfvl8Edw.jpg?r=a0e",
+          "background": "https://occ-0-2296-3933.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABRUJDCSJSHQPOqPDk9sMNrtE72_yB2JOIjVNrGa7zD8Dj-bPI9qR6Z_ayZ9bmmGut94yjiFmsozFIVfmKeXo47r49a2J.jpg?r=940",
+          "title_image": "https://occ-0-2296-3933.1.nflxso.net/dnm/api/v6/jsgGe9NCko3c-j0wGZ7FSwVlHs0/AAAABQUrQ6yG-E8pRbQ9EGiNJJpM5rUuwOMBBYGFQetG92RjiyIUgLvtnrD7GXC_pk_qYelkotUmAaoxx0OWTdhy0EQk6oRaQwHYNg.png?r=612",
+          "starring": [155, 155, 155],
+          "genres": [132, 132, 132],
+          "video": 99999
+        },
+        {
+          "id": 5,
+          "title": "Fantastic Beasts and Where to Find Them",
+          "maturity_ratings": 13,
+          "score": 88,
+          "duration": 132,
+          "year": 2016,
+          "synopsis": "While visiting New York in 1926, the courageous and eccentric wizard Newt Scamander uncovers a sinister plot that threatens the wizarding community.",
+          "boxart": "https://occ-0-2296-3933.1.nflxso.net/dnm/api/v6/XsrytRUxks8BtTRf9HNlZkW2tvY/AAAABV9IVCesbFMXkFegBcFiBkDeHeUpVXO81jeVvri-F_RPQ5tldjzPmqKNNOSIFCjOfsmyxIfHj4QhA7Vr2wvDYgXFKA.jpg?r=55e",
+          "background": "https://occ-0-2296-3933.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABWG6xYGUsZEljWKryhE5QqNYkGvCBNTf3m5RFrPeVex0y5TLDlJh6-lxHOXB8iQ8798EAJrYqPVR5X6ruvozSkHQWf5l.jpg?r=762",
+          "title_image": "https://occ-0-2296-3933.1.nflxso.net/dnm/api/v6/jsgGe9NCko3c-j0wGZ7FSwVlHs0/AAAABZcUEjkz-e_SgeZiV7QHE_62RFXht2Fhq-vWeoTet8WN4fb-kXtOiPPA4xlUYBSA9YO7mFuIlddCI-P2xHb8zjq8u-7x5TygLg.png?r=b21",
+          "starring": [155, 155, 155],
+          "genres": [132, 132, 132],
+          "video": 99999
+        },
+        {
+          "id": 6,
+          "title": "The Nightmare Before Christmas",
+          "maturity_ratings": 13,
+          "score": 92,
+          "duration": 132,
+          "year": 2016,
+          "synopsis": "While visiting New York in 1926, the courageous and eccentric wizard Newt Scamander uncovers a sinister plot that threatens the wizarding community.",
+          "boxart": "https://occ-0-2296-3933.1.nflxso.net/dnm/api/v6/XsrytRUxks8BtTRf9HNlZkW2tvY/AAAABV9IVCesbFMXkFegBcFiBkDeHeUpVXO81jeVvri-F_RPQ5tldjzPmqKNNOSIFCjOfsmyxIfHj4QhA7Vr2wvDYgXFKA.jpg?r=55e",
+          "background": "https://occ-0-2296-3933.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABWG6xYGUsZEljWKryhE5QqNYkGvCBNTf3m5RFrPeVex0y5TLDlJh6-lxHOXB8iQ8798EAJrYqPVR5X6ruvozSkHQWf5l.jpg?r=762",
+          "title_image": "https://occ-0-2296-3933.1.nflxso.net/dnm/api/v6/jsgGe9NCko3c-j0wGZ7FSwVlHs0/AAAABZcUEjkz-e_SgeZiV7QHE_62RFXht2Fhq-vWeoTet8WN4fb-kXtOiPPA4xlUYBSA9YO7mFuIlddCI-P2xHb8zjq8u-7x5TygLg.png?r=b21",
+          "starring": [155, 155, 155],
+          "genres": [132, 132, 132],
+          "video": 99999
+        }
+      ]
+    }
+  ],
+  "movie": [
+    {
+      "id": 1,
+      "title": "Sausage Party",
+      "maturity_ratings": 16,
+      "score": 96,
+      "duration": 88,
+      "year": 2016,
+      "synopsis": "After making a gruesome discovery about life beyond the supermarket, an affable sausage strives to save his fellow foods in this raunchy comedy.",
+      "boxart": "https://occ-0-2296-3933.1.nflxso.net/dnm/api/v6/XsrytRUxks8BtTRf9HNlZkW2tvY/AAAABaX6sGPpH-6TRAqQ-FRThLPnIzeP3BVgXq4wBTTylKs2io7JYqFcBxqTxFDSaQ5HN91eOYpqUpxHnR1A_FIfvl8Edw.jpg?r=a0e",
+      "background": "https://occ-0-2296-3933.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABRUJDCSJSHQPOqPDk9sMNrtE72_yB2JOIjVNrGa7zD8Dj-bPI9qR6Z_ayZ9bmmGut94yjiFmsozFIVfmKeXo47r49a2J.jpg?r=940",
+      "title_image": "https://occ-0-2296-3933.1.nflxso.net/dnm/api/v6/jsgGe9NCko3c-j0wGZ7FSwVlHs0/AAAABQUrQ6yG-E8pRbQ9EGiNJJpM5rUuwOMBBYGFQetG92RjiyIUgLvtnrD7GXC_pk_qYelkotUmAaoxx0OWTdhy0EQk6oRaQwHYNg.png?r=612",
+      "starring": [155, 155, 155],
+      "genres": [132, 132, 132],
+      "video": 99999
+    },
+    {
+      "id": 2,
+      "title": "Fantastic Beasts and Where to Find Them",
+      "maturity_ratings": 13,
+      "score": 88,
+      "duration": 132,
+      "year": 2016,
+      "synopsis": "While visiting New York in 1926, the courageous and eccentric wizard Newt Scamander uncovers a sinister plot that threatens the wizarding community.",
+      "boxart": "https://occ-0-2296-3933.1.nflxso.net/dnm/api/v6/XsrytRUxks8BtTRf9HNlZkW2tvY/AAAABV9IVCesbFMXkFegBcFiBkDeHeUpVXO81jeVvri-F_RPQ5tldjzPmqKNNOSIFCjOfsmyxIfHj4QhA7Vr2wvDYgXFKA.jpg?r=55e",
+      "background": "https://occ-0-2296-3933.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABWG6xYGUsZEljWKryhE5QqNYkGvCBNTf3m5RFrPeVex0y5TLDlJh6-lxHOXB8iQ8798EAJrYqPVR5X6ruvozSkHQWf5l.jpg?r=762",
+      "title_image": "https://occ-0-2296-3933.1.nflxso.net/dnm/api/v6/jsgGe9NCko3c-j0wGZ7FSwVlHs0/AAAABZcUEjkz-e_SgeZiV7QHE_62RFXht2Fhq-vWeoTet8WN4fb-kXtOiPPA4xlUYBSA9YO7mFuIlddCI-P2xHb8zjq8u-7x5TygLg.png?r=b21",
+      "starring": [155, 155, 155],
+      "genres": [132, 132, 132],
+      "video": 99999
+    },
+    {
+      "id": 3,
+      "title": "The Nightmare Before Christmas",
+      "maturity_ratings": 13,
+      "score": 92,
+      "duration": 132,
+      "year": 2016,
+      "synopsis": "While visiting New York in 1926, the courageous and eccentric wizard Newt Scamander uncovers a sinister plot that threatens the wizarding community.",
+      "boxart": "https://occ-0-2296-3933.1.nflxso.net/dnm/api/v6/XsrytRUxks8BtTRf9HNlZkW2tvY/AAAABV9IVCesbFMXkFegBcFiBkDeHeUpVXO81jeVvri-F_RPQ5tldjzPmqKNNOSIFCjOfsmyxIfHj4QhA7Vr2wvDYgXFKA.jpg?r=55e",
+      "background": "https://occ-0-2296-3933.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABWG6xYGUsZEljWKryhE5QqNYkGvCBNTf3m5RFrPeVex0y5TLDlJh6-lxHOXB8iQ8798EAJrYqPVR5X6ruvozSkHQWf5l.jpg?r=762",
+      "title_image": "https://occ-0-2296-3933.1.nflxso.net/dnm/api/v6/jsgGe9NCko3c-j0wGZ7FSwVlHs0/AAAABZcUEjkz-e_SgeZiV7QHE_62RFXht2Fhq-vWeoTet8WN4fb-kXtOiPPA4xlUYBSA9YO7mFuIlddCI-P2xHb8zjq8u-7x5TygLg.png?r=b21",
+      "starring": [155, 155, 155],
+      "genres": [132, 132, 132],
+      "video": 99999
+
+    }
+  ],
+  "serie": [
+    {
+      "id": 1,
+      "title": "Rick And Morty",
+      "maturity_ratings": 16,
+      "score": 98,
+      "synopsis": "Rick an alcoholic and careless scientific genius, with his grandson Morty who is not so intelligent. Together, they explore the infinite universes, causing chaos and problems.",
+      "boxart": "https://occ-0-2296-3933.1.nflxso.net/dnm/api/v6/XsrytRUxks8BtTRf9HNlZkW2tvY/AAAABfhok6cOmswHkRyP794cteJpdyILVsrUD6g6ez2ZMwSyITcNJ1U7FhI8NR__43NGT2d2ZGlSofk9H07KMXvwMMQTNA.jpg?r=8de",
+      "background": "https://occ-0-2296-3933.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABZAe4lHFD2W0MDt9B_zuPnHrql1uX7-IpV1GC9jIl6Su1L-DJww2jI7o-S4NSEeVQXCB9Dy7FqiM6Fc5GD6LkCbJc2z5HhOIDBWZocnj93W5rdr69Q.jpg?r=5cc",
+      "title_image": "https://occ-0-2296-3933.1.nflxso.net/dnm/api/v6/jsgGe9NCko3c-j0wGZ7FSwVlHs0/AAAABYiufHqEgoAwGxR11xG2oxWUPFfV8Rw-mrMi6IQ5gBSLs2yWCN738P2IB8JQ3NuA_wPAK4Wrqf0Bx6nBlt9159GZJG9iPPy65Q.png?r=d68",
+      "creators": [155, 155],
+      "genres": [123, 132, 132, 132],
+      "season_list": [123, 123, 123]
+    }
+  ],
+  "season": [
+    {
+      "id": 123,
+      "name": "Season 1",
+      "short_name": "S1",
+      "year": 2013,
+      "length": 11,
+      "videos": [1234, 1234, 1234, 1234, 1234, 1234, 1234, 1234, 1234, 1234, 1234]
+    },
+    {
+      "id": 123,
+      "name": "Season 2",
+      "short_name": "S2",
+      "year": 2015,
+      "length": 10,
+      "videos": [1234, 1234, 1234, 1234, 1234, 1234, 1234, 1234, 1234, 1234]
+    },
+    {
+      "id": 123,
+      "name": "Season 3",
+      "short_name": "S3",
+      "year": 2017,
+      "length": 10,
+      "videos": [1234, 1234, 1234, 1234, 1234, 1234, 1234, 1234, 1234, 1234]
+    }
+  ],
+  "video": [
+    {
+      "id": 1234,
+      "type": "movie",
+      "source": "https://video"
+    },
+    {
+      "id": 1234,
+      "type": "episode",
+      "episode": 1,
+      "season": 1,
+      "title": "Pilot",
+      "synopsis": "Rick takes Morty on a trip to another dimension to find seeds for \"mega-trees,\" while Jerry and Beth argue over Rick's influence on their son.",
+      "duration": 22,
+      "background": {
+        "image": "https://occ-0-2296-3933.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABQEVgBuTRKvsyr2Q1NfyLh0K74xe4SToAISD6Qst0BFRJvM3yf0z3vKTGGImZjTH7MneUMtyxcJw0KwTNjCmpB9EgCiS0E1VmyPk8bze2zVJ7z_9.jpg?r=221",
+        "width": 342,
+        "height": 192
+      },
+      "source": "https://video"
+    },
+    {
+      "id": 1234,
+      "type": "episode",
+      "episode": 1,
+      "season": 3,
+      "title": "The Rickshank Rickdemption",
+      "synopsis": "Summer and Morty travel interdimensionally to locate Rick and find a bunch of Ricks. Rick craves a very specific chicken nugget dipping sauce.",
+      "duration": 22,
+      "background": {
+        "image": "https://occ-0-2296-3933.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABWZA1TG68gri7MLA4yE4ZzJMb28INWlVzqZoQsyK66BooLBVMGhPP5PjMziwaDUtSYHs6_agqqQrs9-W8rNz1M0NgHPutyVgf5k3B50jFmLgFiGF.jpg?r=8ce",
+        "width": 342,
+        "height": 192
+      },
+      "source": "https://video"
+    },
+    {
+      "id": 1234,
+      "type": "episode",
+      "episode": 2,
+      "season": 3,
+      "title": "Rickmancing the Stone",
+      "synopsis": "With things in turmoil at home, Rick, Morty and Summer travel to a post-apocalyptic world to (rather violently) work out some personal issues.",
+      "duration": 22,
+      "background": {
+        "image": "https://occ-0-2296-3933.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABZJlCmsEc2ye5Rs_2B7L7z3nIGRsgXmlAlRHrW21KWhAjvR-w1P3I45ncAjq3a58zP6QkaLKDR4VfZcV5Or5EkJuj5F9LdvO3ApOBYlVdtki-0Rd.jpg?r=4e9",
+        "width": 342,
+        "height": 192
+      },
+      "source": "https://video"
+    },
+    {
+      "id": 1234,
+      "type": "episode",
+      "episode": 3,
+      "season": 3,
+      "title": "Pickle Rick",
+      "synopsis": "Rick turns himself into a pickle while the rest of the family goes to therapy. Now Rick has to figure out how to stop being a pickle.",
+      "duration": 22,
+      "background": {
+        "image": "https://occ-0-2296-3933.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABZZfRsuzZ8pSEEMbZaB625fyRK_KvYbyJZ3kwt00m5nOEZ0rBRYR3rOfzeXW58ywLW5FI7CBnkqcrwxl2XkiAbSf-4VNo0LUHm6B8-kGulU6tGgH.jpg?r=b7f",
+        "width": 342,
+        "height": 192
+      },
+      "source": "https://video"
+    },
+    {
+      "id": 1234,
+      "type": "episode",
+      "episode": 4,
+      "season": 3,
+      "title": "Vindicators 3:  The Return of Worldender",
+      "synopsis": "While ostensibly helping a group of superheroes called the Vindicators, Rick instead drunkenly sets up a \"Saw\"-like scenario for them to navigate.",
+      "duration": 22,
+      "background": {
+        "image": "https://occ-0-2296-3933.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABRkZphsf4CMCYvkLDLT76P4wRIab-Or1mwQwMMElxxb7nLJT0gE3rQ5ZJ2WPFk8IrDjHkpcYJtSBqOHhIMwknFmOQNNXzT8hl4lTufOjTzQ8KgSA.jpg?r=042",
+        "width": 342,
+        "height": 192
+      },
+      "source": "https://video"
+    },
+    {
+      "id": 1234,
+      "type": "episode",
+      "episode": 5,
+      "season": 3,
+      "title": "The Whirly Dirly Conspiracy",
+      "synopsis": "Rick and Jerry go to a resort where dying is impossible, but a creature wants to kill Rick anyway. Summer's attempt to enlarge her breasts goes awry.",
+      "duration": 22,
+      "background": {
+        "image": "https://occ-0-2296-3933.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABe_d0W-RzS6BWO1rrlFi7zUe-G-Pldj4kgJuDce_2SQGhVfN0FQO23dSPPqU7tC1gx0zSkK-wScWbIhznOJgymG-Z-CfQ_l9DK9fwi5cXAwWg2ba.jpg?r=2c2",
+        "width": 342,
+        "height": 192
+      },
+      "source": "https://video"
+    },
+    {
+      "id": 1234,
+      "type": "episode",
+      "episode": 6,
+      "season": 3,
+      "title": "Rest and Ricklaxation",
+      "synopsis": "After another exhausting adventure, Rick and Morty decide they need a vacation. But things go a little haywire when they try a special detox machine.",
+      "duration": 22,
+      "background": {
+        "image": "https://occ-0-2296-3933.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABQZhyVWTG1UK_3AFjUZgJtPmJj9BzBQweB28xcDZGgXzv7Hn0rEZJ3zlC1Cz4awjsqdgi8gOnh1Jafpj4TIpRf8hojHmi1dOmH9HsEmDxgK74eIP.jpg?r=a8e",
+        "width": 342,
+        "height": 192
+      },
+      "source": "https://video"
+    },
+    {
+      "id": 1234,
+      "type": "episode",
+      "episode": 7,
+      "season": 3,
+      "title": "The Ricklantis Mixup",
+      "synopsis": "Rick and Morty encounter a visiting Rick and Morty from the Citadel of Ricks before heading off on an amazing adventure to Atlantis.",
+      "duration": 22,
+      "background": {
+        "image": "https://occ-0-2296-3933.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABWx1AnUjapoF1PyzBLpJcNzi3LPhkL_VOgQEx_KCt_oNNDMDtul9LaZx-QzozL_Z18BmmaKZ3s9oSc6fPAVylQoray7bpymVUS-3Ve23CC30LfSP.jpg?r=ae8",
+        "width": 342,
+        "height": 192
+      },
+      "source": "https://video"
+    },
+    {
+      "id": 1234,
+      "type": "episode",
+      "episode": 8,
+      "season": 3,
+      "title": "Morty's Mind Blowers",
+      "synopsis": "Rick shows Morty a room filled with memories Morty begged him to remove from his mind, and things go off the rails when Rick starts restoring them.",
+      "duration": 22,
+      "background": {
+        "image": "https://occ-0-2296-3933.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABQsr50w4sMWq6QxJCwizKgPWHi98Ij0flC-zUFkYCi7DBPe1tucaFfP7f0cZ0ODZp4GeNEbdBxo0-f5riTP9hGfEchd49Bk8ikUswcrTLX_WGg23.jpg?r=a79",
+        "width": 342,
+        "height": 192
+      },
+      "source": "https://video"
+    },
+    {
+      "id": 1234,
+      "type": "episode",
+      "episode": 9,
+      "season": 3,
+      "title": "The ABC's of Beth",
+      "synopsis": "Rick and Beth sort out issues from her childhood by visiting a world called Froopy Land. Morty and Summer are a little wary of Jerry's new girlfriend.",
+      "duration": 22,
+      "background": {
+        "image": "https://occ-0-2296-3933.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABZykVaTheaZiPyGBwJrmgzZRdZVheyCZ-wipkQK40sdNKXSHe7QOojlQ_hLki-JcFPA-4s5y77VeaiLuXqwvfVlTW2G5R-bZV2Q1NZzU5DMuBv0L.jpg?r=252",
+        "width": 342,
+        "height": 192
+      },
+      "source": "https://video"
+    },
+    {
+      "id": 1234,
+      "type": "episode",
+      "episode": 10,
+      "season": 3,
+      "title": "The Rickchurian Mortydate",
+      "synopsis": "The president needs help from Rick and Morty, prompting a bit of a confrontation. Beth begins to suspect that she may be a clone.",
+      "duration": 22,
+      "background": {
+        "image": "https://occ-0-2296-3933.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABY3uO7VrrIQc3WZOSmoXmOAYNpTNFUaJ730JJDB-I1-xuPn78_IP_CG242-SrF9od7TW7pnGa71jYc6TPARv2epZ4ffUeW06qmg6Zbw3Nm6c-p5u.jpg?r=b6e",
+        "width": 342,
+        "height": 192
+      },
+      "source": "https://video"
+    }
+  ],
+  "genre": [
+    {
+      "id": 132,
+      "name": "Sci-Fi Tv"
+    },
+    {
+      "id": 132,
+      "name": "Sitcoms"
+    },
+    {
+      "id": 132,
+      "name": "Comedies"
+    },
+    {
+      "id": 132,
+      "name": "US TV Shows"
+    },
+    {
+      "id": 132,
+      "name": "Action & Adventure"
+    },
+    {
+      "id": 132,
+      "name": "Adventures"
+    },
+    {
+      "id": 132,
+      "name": "British Movies"
+    }
+  ],
+  "person:": [
+    {
+      "id": 155,
+      "name": "Dan Harmon"
+    },
+    {
+      "id": 155,
+      "name": "Justin Roiland"
+    },
+    {
+      "id": 155,
+      "name": "Michael Cera"
+    },
+    {
+      "id": 155,
+      "name": "James Franco"
+    },
+    {
+      "id": 155,
+      "name": "Bill Hader"
+    },
+    {
+      "id": 155,
+      "name": "Eddie Redmayne"
+    },
+    {
+      "id": 155,
+      "name": "Katherine Waterston"
+    },
+    {
+      "id": 155,
+      "name": "Dan Fogler"
+    }
+  ]
+}

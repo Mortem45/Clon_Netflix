@@ -1,0 +1,49 @@
+.PreviewMediaInfoWatched {
+  margin-top: .8em;
+}
+
+.PreviewMediaInfoWatched__EpisodioTitle {
+  font-size: 1.125vw;
+}
+
+.PreviewMediaInfoWatched__EpisodioTitle b {
+  color: white;
+}
+
+@media (max-width: 799px) {
+  .PreviewMediaInfoWatched__EpisodioTitle {
+    width: 50vw;
+  }
+}
+
+.PreviewMediaInfoWatched__Progress {
+  font-size: .8em;
+  width: 88%;
+  min-height: .8em;
+  display: flex;
+  align-items: center;
+}
+
+.PreviewMediaInfoWatched__Progress__Bar {
+  display: block;
+  position: relative;
+  height: 2px;
+  background-color: rgba(255, 255, 255, 0.3);
+  flex-grow: 1;
+}
+
+/* TODO  Width de la barra roja  */
+.PreviewMediaInfoWatched__Progress__Progress {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2px;
+  background-color: #E50914;
+  width: 56%;
+}
+
+.PreviewMediaInfoWatched__Summary {
+  margin: 0 0 0 8px;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.3);
+}

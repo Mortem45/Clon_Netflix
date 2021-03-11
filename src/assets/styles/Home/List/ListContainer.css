@@ -1,0 +1,12 @@
+.ListContainer {
+  margin: 3vw 0;
+  box-sizing: border-box;
+  position: relative;
+  transition: transform 0.54s cubic-bezier(0.5, 0, 0.1, 1) 0s;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.ListContainer:hover {
+  z-index: 3;
+}

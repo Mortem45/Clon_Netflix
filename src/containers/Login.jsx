@@ -13,7 +13,6 @@ import 'enl-styles/Login/Login.css'
 export default class LandingPage extends Component {
   render() {
     const handlerForm = async (event) => {
-      console.log(click)
       event.preventDefault()
     }
 

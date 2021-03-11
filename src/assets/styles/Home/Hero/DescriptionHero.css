@@ -1,0 +1,21 @@
+.DescriptionHero__Container {
+  transform: translate3d(0px, 0px, 0px);
+  transition-duration: 1300ms;
+  transition-delay: 0ms;
+  opacity: 1;
+  transition-duration: 600ms;
+  transition-delay: 200ms;
+}
+
+.DescriptionHero {
+  opacity: 1;
+  transition-duration: 600ms;
+  transition-delay: 200ms;
+  color: #fff;
+  font-weight: normal;
+  line-height: normal;
+  width: 100%;
+  font-size: 1.4vw;
+  margin: 0.5vw 0 0 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.45);
+}

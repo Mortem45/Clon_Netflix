@@ -1,0 +1,34 @@
+.NavigationPrimary__Ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.NavigationPrimary__Ul .NavigationPrimary__Li {
+  list-style-type: none;
+  display: block;
+  margin-left: 18px;
+}
+
+@media screen and (min-width: 1330px) {
+  .NavigationPrimary__Ul .NavigationPrimary__Li {
+    margin-left: 20px;
+  }
+}
+
+.NavigationPrimary__Ul .NavigationPrimary__Li a {
+  position: relative;
+  color: #e5e5e5;
+  transition: color 400ms;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.NavigationPrimary__Ul .NavigationPrimary__Li a:focus,
+.NavigationPrimary__Ul .NavigationPrimary__Li a:hover {
+  color: #fff;
+  font-weight: bold;
+  cursor: default;
+}

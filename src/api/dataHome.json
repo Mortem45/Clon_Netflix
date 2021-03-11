@@ -1,0 +1,39 @@
+{
+  "header": {
+    "primary_navigation": [
+      {
+        "id": 1,
+        "name": "Home",
+        "href": "/home"
+      },
+      {
+        "id": 2,
+        "name": "TV Shows",
+        "href": "tv-show"
+      },
+      {
+        "id": 3,
+        "name": "Movies",
+        "href": "movies"
+      },
+      {
+        "id": 4,
+        "name": "Recently Added",
+        "href": "recently-added"
+      },
+      {
+        "id": 5,
+        "name": "My List",
+        "href": "my-list"
+      }
+    ],
+    "secondary_navigation": {
+      "img_profile": "https://occ-0-1063-3933.1.nflxso.net/art/0a23d/bd81473c570e4f6898dae0375550d809c230a23d.png"
+    }
+  },
+  "hero": {
+    "background": "https://occ-0-1063-3933.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABb7tTdOT9jo49_du5reifbYegoXcLW3K-RIJIhYKJfldAfEoVVxpH_72k0mhhiTG6i7HlJ1-EWuXpUW61SpMTs93_qkC.jpg?r=c60",
+    "title_image": "https://occ-0-1063-3933.1.nflxso.net/dnm/api/v6/5e0byrbbfBPBmtxyXMpKqMuqOQY/AAAABX-bE6u_I2FTiZ99dZRJHZA8kPiR14NO7ZV2NkySWVpnMNzbsqiB3zUEtnBARyN4pxG8k0KoZcgiXOv9s64si8ulWCTRv-fYYMnR.png?r=221",
+    "synopsis": "Default One is a dazzling scientist; the other, his dimwitted progeny. The result is a match made in mayhem."
+  }
+}

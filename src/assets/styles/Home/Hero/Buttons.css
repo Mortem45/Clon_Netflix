@@ -1,0 +1,102 @@
+.Buttons {
+  margin-top: 1.5vw;
+  white-space: nowrap;
+  display: flex;
+  line-height: 88%;
+  position: relative;
+  z-index: 10;
+}
+
+.MoreInfo__Container,
+.Play__Container,
+.MyList__Container {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: transparent;
+}
+
+.Play,
+.MyList,
+.MoreInfo {
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-width: 0;
+  padding: 0.75em 2.3em;
+  height: 1.2vw;
+  border-radius: 0.2vw;
+  box-shadow: none;
+  font-size: 1.1vw;
+  margin-bottom: 0.75em;
+  background-image: none;
+  font-weight: bold;
+  margin-right: 0.75em;
+  position: relative;
+  display: inline-block;
+}
+
+.Play,
+.MyList {
+  background-color: white;
+  color: black;
+}
+.MoreInfo {
+  background-color: rgba(109,109,110,0.7);
+  color: white;
+}
+
+.Play__Icon,
+.MoreInfo__Icon {
+  font-weight: bold;
+  vertical-align: middle;
+  margin-right: 0.71em;
+  background-color: transparent;
+  font-size: inherit;
+}
+
+.Play__Icon::before {
+  content: '\e646';
+  font-size: inherit;
+}
+
+.Play__Text,
+.MyList__Text,
+.MoreInfo__Text {
+  vertical-align: middle;
+  padding: 0;
+  margin: 0;
+  top: auto;
+  white-space: nowrap;
+  text-transform: none;
+}
+
+.Play:hover,
+.MyList:hover,
+.MoreInfo:hover {
+  background-color: white;
+  color: black;
+  transform: scale(1.12);
+  transition: transform 350ms cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+.MyList__Icon {
+  margin-right: 0.71em;
+  background-color: transparent;
+  font-size: inherit;
+  transition: none;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.MyList__Icon::before {
+  content: '\e641';
+  font-size: inherit;
+}
+
+.MyList__Icon:hover {
+  box-shadow: 0 0.6vw 1vw -0.4vw rgba(0, 0, 0, 0.35);
+  background-color: #e6e6e6;
+  color: #000;
+  height: 1.2vw;
+}
+

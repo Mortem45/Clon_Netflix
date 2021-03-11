@@ -1,0 +1,17 @@
+.ImageTitle__Container {
+  transform-origin: left bottom 0px;
+  transform: scale(1) translate3d(0px, 0px, 0px);
+  transition-duration: 1300ms;
+  transition-delay: 0ms;
+}
+
+.ImageTitle {
+  min-height: 13.2vw;
+  position: relative;
+  margin-bottom: 1.2vw;
+}
+
+.ImageTitle__Image {
+  width: 90%;
+  transform-origin: bottom left;
+}

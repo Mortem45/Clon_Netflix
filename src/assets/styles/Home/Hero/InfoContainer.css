@@ -1,0 +1,28 @@
+.InfoContainer_Container {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  position: absolute;
+}
+
+.InfoContainer {
+  position: absolute;
+  top: 0;
+  bottom: 35%;
+  left: 4%;
+  width: 36%;
+  z-index: 10;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  transition: transform 1.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+@media screen and (min-width: 1500px) {
+  .InfoContainer {
+    left: 60px;
+  }
+}

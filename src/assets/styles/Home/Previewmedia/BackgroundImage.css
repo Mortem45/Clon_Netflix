@@ -1,0 +1,24 @@
+.BackgroundImage__Container {
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 70%;
+  position: absolute;
+  overflow: hidden;
+}
+
+.BackgroundImage__Image {
+  transform: translateZ(0);
+  background-position: center 10%;
+  background-position: center center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-size: cover;
+  opacity: 1;
+  transition-duration: 750ms;
+  z-index: 2;
+  color: aliceblue;
+}

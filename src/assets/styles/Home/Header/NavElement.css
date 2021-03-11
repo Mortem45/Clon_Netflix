@@ -1,0 +1,13 @@
+.NavElement a {
+  display: block;
+}
+
+.NavElement:not(:last-child) {
+  margin-right: 15px;
+}
+
+@media screen and (min-width: 1330px) {
+  .NavElement:not(:last-child) {
+    margin-right: 20px;
+  }
+}

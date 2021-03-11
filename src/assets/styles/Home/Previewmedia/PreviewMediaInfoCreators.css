@@ -1,0 +1,27 @@
+.PreviewMediaInfoCreators__Container {
+  margin: 20px 0 0 0;
+}
+
+.PreviewMediaInfoCreators {
+  font-size: .9em;
+  color: #828282;
+  margin: 2px 0 0 0;
+}
+
+
+.PreviewMediaInfoCreators .PreviewMediaInfoCreators__Label {
+  color: #828282;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.PreviewMediaInfoCreators a {
+  color: #828282;
+}
+
+.PreviewMediaInfoCreators a:focus,
+.PreviewMediaInfoCreators a:hover {
+  outline: none;
+  text-decoration: underline;
+  color: #b3b3b3;
+}
