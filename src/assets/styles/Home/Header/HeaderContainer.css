@@ -2,34 +2,25 @@
   height: 70px;
 }
 
-.Home__Header {
+.Home__Header__Cont {
   top: 0px;
-  background: transparent none repeat scroll 0% 0%;
   position: relative;
-  display: flex;
-  align-items: center;
-  padding: 0 4%;
-  z-index: 2;
-  font-size: 1.2rem;
-  transition: background-color 400ms;
-  height: 41px;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 10%, rgba(0, 0, 0, 0));
-}
-
-.Home__Header__Container .Home__Header {
+  background: transparent none repeat scroll 0% 0%;
   left: 0;
   right: 0;
-  top: 0;
-  position: relative;
   z-index: 1;
 }
 
-.Home__Header__Container .Home__Header {
-  z-index: 2;
-  height: 41px;
+.Home__Header {
+background-color: transparent;
+background-image: linear-gradient(to bottom,rgba(0,0,0,.7) 10%,rgba(0,0,0,0));
+position: relative;
+display: flex;
+align-items: center;
+transition: background-color .4s;
 }
 
-@media screen and (min-width: 950px) {
+media screen and (min-width: 950px) {
   .Home__Header__Container .Home__Header {
     height: 68px;
   }
@@ -54,11 +45,11 @@
 }
 
 .Home__Header__Logo::before {
-   content: '\e5d0';
+  content: '\e5d0';
 }
 
-.Home__Header__Logo  {
-  font-size: 1.8em;
+.Home__Header__Logo {
+  text-decoration: none;
   color: #E50914;
   display: inline-block;
   vertical-align: middle;
@@ -66,13 +57,13 @@
 }
 
 @media screen and (min-width: 950px) {
-  .Home__Header__Logo  {
+  .Home__Header__Logo {
     font-size: 25px;
   }
 }
 
 @media screen and (min-width: 1150px) {
-  .Home__Header__Logo  {
+  .Home__Header__Logo {
     margin-right: 25px;
   }
 }

@@ -6,7 +6,8 @@ const ListContent = ({ children, showModal, clss, handlerCloseModal }) => (
   <div className='ListContent__Container'>
     <div className={`ListContent ${clss}`}>
       {children}
-      {showModal ? <PreviewMedia info={showModal} handlerCloseModal={handlerCloseModal} /> : <div />}
+      {/* FIXME */}
+      {/* {showModal ? <PreviewMedia info={showModal} handlerCloseModal={handlerCloseModal} /> : <div />} */}
     </div>
   </div>
 )

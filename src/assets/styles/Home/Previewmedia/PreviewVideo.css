@@ -1,0 +1,22 @@
+.PreviewVideoContainer,.PreviewVideoContainer2  {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  box-sizing: inherit;
+}
+.PreviewVideoContainer {
+  position: absolute;
+}
+
+.PreviewVideoContainer2 {
+  position: relative;
+}
+
+.PreviewVideo {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  box-sizing: inherit;
+  display: inline-block;
+}

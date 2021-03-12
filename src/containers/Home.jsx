@@ -5,6 +5,8 @@ import Main from 'enl-components/Home/Main'
 import List from 'enl-components/Home/List'
 import Hero from 'enl-components/Home/Hero'
 import Media from 'enl-components/Home/Media'
+import PreviewMedia from 'enl-components/Home/PreviewMedia'
+import Background from 'enl-components/Home/PreviewMedia/Background'
 
 import dat from '../api/dataHome.json'
 import data from '../api/api.json'
@@ -34,11 +36,11 @@ const Home = () => {
               ? data.lists.map(list => {
                 if (list.items.length > 0) {
                   return (
-                    <List key={list._id} title={list.title} Preview={preview} showModal={showModal} handlerCloseModal={handlerCloseModal}>
+                    <List key={list.id} title={list.title} Preview={preview} showModal={false} handlerCloseModal={handlerCloseModal}>
                       {
                         list.items.map(media => {
                           return (
-                            <Media key={media._id} {...media} handlerOpenModal={handlerOpenModal} />
+                            <Media key={media.id} {...media} handlerOpenModal={handlerOpenModal} />
                           )
                         })
                       }
@@ -50,6 +52,8 @@ const Home = () => {
           )
         }
       </Main>
+      {/* <Background /> */}
+      {/* <PreviewMedia /> */}
     </Container>
   )
 

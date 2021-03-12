@@ -5,7 +5,7 @@ import NavigationSecondary from '../Home/Header/NavigationSecondary'
 
 const Header = ({ header }) => (
   <HeaderContainer>
-    <a className='Header__Logo' />
+    <a className='Home__Header__Logo' />
     <NavigationPrimary navPrimary={header.primary_navigation} />
     <NavigationSecondary imgProfile={header.secondary_navigation.img_profile} />
   </HeaderContainer>

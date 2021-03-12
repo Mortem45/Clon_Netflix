@@ -1,9 +1,12 @@
 @font-face {
-  font-family: 'nf-icon';
-  src: url('https://assets.nflxext.com/ffe/siteui/fonts/nf-icon-v1-93.eot');
-  src: url('https://assets.nflxext.com/ffe/siteui/fonts/nf-icon-v1-93.eot?#iefix') format('embedded-opentype'), url('https://assets.nflxext.com/ffe/siteui/fonts/nf-icon-v1-93.woff') format('woff'), url('https://assets.nflxext.com/ffe/siteui/fonts/nf-icon-v1-93.ttf') format('truetype'), url('https://assets.nflxext.com/ffe/siteui/fonts/nf-icon-v1-93.svg#nf-icon-v1-93') format('svg');
-  font-weight: normal;
-  font-style: normal;
+ font-family:nf-icon;
+ src:url(https://assets.nflxext.com/ffe/siteui/fonts/nf-icon-v1-93.eot);
+ src:url(https://assets.nflxext.com/ffe/siteui/fonts/nf-icon-v1-93.eot?#iefix) format('embedded-opentype'),
+ url(https://assets.nflxext.com/ffe/siteui/fonts/nf-icon-v1-93.woff) format('woff'),
+ url(https://assets.nflxext.com/ffe/siteui/fonts/nf-icon-v1-93.ttf) format('truetype'),
+ url(https://assets.nflxext.com/ffe/siteui/fonts/nf-icon-v1-93.svg#nf-icon-v1-93) format('svg');
+ font-weight:400;
+ font-style:normal
 }
 
 @font-face {

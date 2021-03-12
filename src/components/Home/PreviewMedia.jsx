@@ -1,14 +1,19 @@
 import React from 'react'
-import PreviewMediaContainer from './PreviewMedia/PreviewMediaContainer'
-import Background from './PreviewMedia/Background'
-import PreviewMediaInfo from './PreviewMedia/PreviewMediaInfo'
+import Modal from 'enl-components/Home/PreviewMedia/Modal'
+import PreviewContainer from 'enl-components/Home/PreviewMedia/PreviewContainer'
+import PreviewVideo from 'enl-components/Home/PreviewMedia/PreviewVideo'
+import PreviewImage from 'enl-components/Home/PreviewMedia/PreviewImage'
+
+PreviewImage
+
 
 const PreviewMedia = ({ info, handlerCloseModal }) => (
-  <PreviewMediaContainer>
-    <Background background={info.background} />
-    <PreviewMediaInfo image={info.title_image} info={info} />
-    <button className='PreviewMediaContainer__Button__Icon' onClick={handlerCloseModal} />
-  </PreviewMediaContainer>
+  <Modal>
+    <PreviewContainer>
+      <PreviewImage />
+      soy modal
+    </PreviewContainer>
+  </Modal>
 )
 
 export default PreviewMedia

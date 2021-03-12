@@ -1,0 +1,9 @@
+.PreviewContainer {
+  border-top-right-radius: 6px;
+  overflow: hidden;
+  border-top-left-radius: 6px;
+  position: relative;
+  background-color: #000;
+  cursor: pointer;
+  box-sizing: inherit;
+}

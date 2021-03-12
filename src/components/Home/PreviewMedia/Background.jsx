@@ -1,11 +1,10 @@
 import React from 'react'
-import BackgroundContainer from './BackgroundContainer'
-import BackgroundImage from './BackgroundImage'
+import 'enl-styles/Home/Previewmedia/Background.css'
 
-const Backgorund = ({ background }) => (
-  <BackgroundContainer>
-    <BackgroundImage image={background} />
-  </BackgroundContainer>
+const Background = () => (
+  <div className='BackgroundContainer' tabIndex='-1'>
+    <div className='Background' tabIndex='-1'></div>
+  </div>
 )
 
-export default Backgorund
+export default Background

@@ -1,8 +1,5 @@
 .Container {
   width: 100%;
   overflow: hidden;
-}
-
-.Container {
-  font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  position: static;
 }

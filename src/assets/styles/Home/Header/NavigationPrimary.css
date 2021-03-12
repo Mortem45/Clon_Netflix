@@ -11,6 +11,11 @@
   margin-left: 18px;
 }
 
+/* FIXME class selected in menu */
+.NavigationPrimary__Li:first-child a{
+  font-weight: 700;
+}
+
 @media screen and (min-width: 1330px) {
   .NavigationPrimary__Ul .NavigationPrimary__Li {
     margin-left: 20px;
