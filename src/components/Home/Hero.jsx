@@ -6,6 +6,7 @@ import InfoContainer from './Hero/InfoContainer'
 import ImageTitle from './Hero/ImageTitle'
 import DescriptionHero from './Hero/DescriptionHero'
 import Buttons from './Hero/Buttons'
+import MaturityNumber from './Hero/MaturityNumber'
 
 const Hero = ({ heroDefault }) => {
   // FIXME
@@ -19,6 +20,7 @@ const Hero = ({ heroDefault }) => {
     <HeroContainer>
       <BackgroundContainer>
         <Background ImgBackground={hero.background} />
+        <MaturityNumber />
       </BackgroundContainer>
       <InfoContainer>
         <ImageTitle LogoSerie={hero.title_image} />
